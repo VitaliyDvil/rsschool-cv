@@ -25,3 +25,30 @@ Skills and Proficiency:
 * VS Code
 * Adobe Photoshop, Illustrator
 ****
+Code example:
+
+```
+function feedDocItemToPost(feedItemDoc) {
+        const feedItemTitle = feedItemDoc.querySelector('item > title').textContent;
+        const feedItemDescription = feedItemDoc.querySelector('item > description').textContent;
+        const feedItemLink = feedItemDoc.querySelector('link').textContent;
+        return {
+            title: feedItemTitle,
+            description: feedItemDescription,
+            link: feedItemLink,
+            id: getId(feedItemTitle),
+        };
+    }
+```
+****
+Courses:
+
+* HTML and CSS Tutorials on the w3schools (completed)
+* JavaScript Manual on learnjavascript.ru (in progress)
+* Hexlet (frontend)
+****
+Languages:
+
+* Russian - Native
+* English - Pre-Intermediate
+* Polish - Basic
