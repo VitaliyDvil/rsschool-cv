@@ -77,3 +77,56 @@ ul.navigation_list a {
     left: 969px;
     top: 625px;
 }
+
+.how_it_works {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 140px;
+}
+
+.how_it_works > img {
+    margin-left: 203px;
+}
+
+.how_it_works > div {
+    margin-left: 88px;
+    width: 500px;
+    margin-top: -40px;
+}
+
+.how_it_works > div > h2 {
+    color:#333B41;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 58px;
+}
+
+.how_it_works > div > .description {
+    margin-top: -18px;
+    color:#333B41;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.how_it_works > div > h3 {
+    color:#333B41;
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 58px;
+}
+
+.how_it_works > div > .main_goal {
+    margin-top: -4px;
+    color:#333B41;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 138%;
+}
+
+.flower_photo {
+    position: absolute;
+    top: 792px;
+    left: 1178px;
+}
