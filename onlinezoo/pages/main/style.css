@@ -130,3 +130,104 @@ ul.navigation_list a {
     top: 792px;
     left: 1178px;
 }
+
+.animals_card {
+    margin-top: 155px;
+    margin-left: 178px;
+    width: 1200px;
+}
+
+.animals_card > .photo_cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photo_cards > div {
+    height: 425px;
+    margin-left: 26px;
+    margin-bottom: 20px;
+    margin-top: -2px;
+    border: 1px solid #F9804B;
+    border-radius: 5px;
+}
+
+.photo_card_description {
+    display: inline-block;
+    width: 310px;
+}
+
+.photo_card_icon {
+    display: inline-block;
+}
+
+.photo_card_description > h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 7px;
+    margin-left: 15px;
+}
+
+.photo_card_description > h4 {
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: -15px;
+    margin-left: 15px;
+}
+
+.animals_card > .btn {
+    position: relative;
+    width: 62px;
+    height: 62px;
+    border: 0;
+    background: #F9804B;
+    border-radius: 50%;
+}
+
+.animals_card > .btn_left {
+    top: -546px;
+    left: -55px;
+}
+
+.animals_card > .btn_right {
+    top: -546px;
+    left: 1140px;
+}
+
+.animals_card > .btn_choose {
+    width: 298px;
+    height: 54px;
+    color: white;
+    background: #F9804B;
+    border: 0;
+    border-radius: 95px;
+    margin-left: 325px;
+    margin-top: 60px;
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 7px;
+    padding-left: 10px;
+    margin-bottom: 100px;
+}
+
+.animals_card > img {
+    position: absolute;
+}
+
+.strelizia {
+    left: 1218px;
+    top: 2335px;
+}
+
+.palm {
+    left: -15px;
+    top: 2150px;
+}
+
+
+
+
+
+
+/* .animals_card {
+    background-color: aqua;
+} */
