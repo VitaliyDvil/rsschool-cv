@@ -24,7 +24,7 @@ ul.navigation_list li {
     display: inline-block;
     list-style-type: none;
     text-decoration: none;
-    padding-right: 54px;
+    padding-right: 40px;
 }
 
 ul.navigation_list li:last-child {
